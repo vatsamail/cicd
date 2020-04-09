@@ -1,0 +1,100 @@
+    76	0:43	l /var/lib/snapd/snaps/
+    77	0:43	which docker
+    78	0:43	l /usr/bin/
+    79	0:44	bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+    80	0:44	/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+    81	0:44	which bash
+    82	0:45	/usr/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+    83	0:45	bash
+    84	0:58	sudo apt install linuxbrew-wrapper
+    85	0:59	which brew
+    86	1:00	brew install circleci
+    87	1:00	circleci
+    88	1:01	l /home/linuxbrew/.linuxbrew/Cellar/circleci/0.1.6949:
+    89	1:01	l /home/linuxbrew/.linuxbrew/Cellar/circleci/
+    90	1:01	l /home/linuxbrew/.linuxbrew/Cellar/circleci/0.1.6949/
+    91	1:01	l /home/linuxbrew/.linuxbrew/Cellar/circleci/0.1.6949/bin/circleci
+    92	1:01	g ~/.cshrc
+    93	1:01	source ~/.cshrc
+    94	1:02	circleci switch
+    95	1:02	/home/linuxbrew/.linuxbrew/Cellar/circleci/0.1.6949/bin/circleci switch
+    96	1:02	source ~/.cshrc
+    97	1:02	circleci switch
+    98	1:02	g ~/.cshrc
+    99	1:02	circleci config validate
+   100	1:03	source ~/.cshrc
+   101	1:03	circleci config validate
+   102	1:03	circleci build
+   103	1:04	l
+   104	1:04	g ../README.md
+   105	1:05	r
+   106	1:05	psim
+   107	1:06	echo $PS1
+   108	1:07	echo $prompt
+   109	1:07	echo $prompt
+   110	1:07	echo a
+   111	1:07	echo $prompt2
+   112	1:08	g ~/.cshrc
+   113	1:08	source ~/.cshrc
+   114	1:08	g ~/.cshrc
+   115	1:09	source ~/.cshrc
+   116	1:09	source ~/.cshrc
+   117	1:09	psim
+   118	1:10	pwd
+   119	1:10	l
+   120	1:11	source ~/.cshrc
+   121	1:11	source ~/.cshrc
+   122	1:12	source ~/.cshrc
+   123	1:12	source ~/.cshrc
+   124	1:12	source ~/.cshrc
+   125	1:12	pfull
+   126	1:13	pfull
+   127	1:13	source ~/.cshrc
+   128	1:13	pfull
+   129	1:13	psim
+   130	1:13	pfull
+   131	1:13	psim
+   132	1:13	pwd
+   133	1:13	r
+   134	1:13	l
+   135	1:13	circleci build
+   136	1:14	l /tmp/local_build_config.yml
+   137	1:14	l /tmp/
+   138	1:14	cp .circleci/config.yml /tmp/local_build_config.yml
+   139	1:14	circleci build
+   140	1:14	l /tmp/local_build_config.yml:
+   141	1:14	l /tmp/local_build_config.yml
+   142	1:19	echo $JAVA_HOME
+   143	1:20	which java
+   144	1:20	javac
+   145	1:20	java
+   146	1:20	sudo apt-get install java
+   147	1:20	brew install java
+   148	1:23	g ~/.cshrc
+   149	1:24	source ~/.cshrc
+   150	1:24	psim
+   151	1:24	r
+   152	1:24	which java
+   153	1:24	l /home/linuxbrew/.linuxbrew/opt/openjdk/
+   154	1:25	l /usr/local/jdk
+   155	1:25	brew install jdk
+   156	1:26	javac -version
+   157	1:26	brew tap atlassian/tap
+   158	1:26	brew install atlassian/tap/atlassian-plugin-sdk
+   159	1:27	altas-version
+   160	1:27	atlas-run
+   161	1:27	/home/linuxbrew/.linuxbrew/Cellar/atlassian-plugin-sdk/8.0.16/bin/
+   162	1:27	l /home/linuxbrew/.linuxbrew/Cellar/atlassian-plugin-sdk/8.0.16/bin/
+   163	1:28	l /home/linuxbrew/.linuxbrew/Cellar/atlassian-plugin-sdk/8.0.16/bin/atlas-version
+   164	1:28	g ~/.cshrc
+   165	1:28	source ~/.cshrc
+   166	1:28	psim
+   167	1:28	atlas-run
+   168	1:29	atlas-version
+   169	1:30	pwd
+   170	1:30	l
+   171	1:30	h
+   172	1:31	history
+   173	1:31	pwd
+   174	1:31	l
+   175	1:31	history > history.txt
